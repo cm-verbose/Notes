@@ -12,10 +12,10 @@ print("4")
 In order, this will return in the terminal : 
 
 ```py
-"1"
-"2"
-"3"
-"5"
-"4"
+1
+2
+3
+5
+4
 ```
 This is because every **`print()`**  function in this script was written in this particular order. 
