@@ -11,5 +11,6 @@ print("Hi " + name + " !") # if you had entered a name here, it will print out "
 ```py
 name = input("What is your name ? \n")
 age = input("What is your age ? \n")
-print("Hi " + name + " you are " + age + " years old") # Returns both the age and name, for example if name = "John" and age = "22", it will return "Hi John you are 22 years old"
+print("Hi " + name + " you are " + age + " years old") 
+# Returns both the age and name, for example if name = "John" and age = "22", it will return "Hi John you are 22 years old"
 ```
