@@ -64,3 +64,11 @@ print(ans) # 5
 ans = 5
 ans **= 14
 print(ans) # 6103515625
+
+# Operator precedence
+expr = (5 - 3) * 234 ** 2 + 4 
+# 2 * 234 ** 2 + 4
+# 2 * 54756 + 4
+# 109512 + 4
+# 109516
+print(expr) # 109516
