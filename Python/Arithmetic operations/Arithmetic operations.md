@@ -109,3 +109,25 @@ Augmented Assignment operators help us write assingment of a variable while perf
   ans **= 14
   print(ans) # 6103515625
   ```
+
+## Operator Precedence
+Operator Precendence allows for the arithmetic operations that we run to follow the exact same rule as in mathematics. So if you remember them correctly, in order operations follow this order : 
+  - Parenthesis
+  - Exponentiation & Roots
+  - Multiplication & Division
+  - Addition & Substraction
+  
+Here is an example of a mathematical expression that is correctly solved using operator precedence : 
+```py
+expr = (5 - 3) * 234 ** 2 + 4 
+# 2 * 234 ** 2 + 4
+# 2 * 54756 + 4
+# 109512 + 4
+# 109516
+print(expr) # 109516
+```
+
+## Math Module 
+The Python module is a module that we can import in order to compute mathematical expressions that are more complex. Here, a module is a file that contains valid python code and that can be used to simplify our code by writting less in the main file. [Here](https://docs.python.org/3/library/math.html), you can find a list of all functions contained within this module and it's usage.
+
+  
