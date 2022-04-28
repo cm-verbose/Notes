@@ -1,7 +1,7 @@
 # Single inputs
 
-name = input("What is your name ? \n") # here \n is a newline, so it prints to the next line
-print("Hi " + name + " !") # if you had entered a name here, it will print out "Hi John", if you would have typed "John"
+name = input("What is your name ? \n") # here \n is a newline, so it puts the cursor at the next line
+print("Hi " + name + " !") # if you had entered a name here, it will print out "Hi John", if you would have typed "J
 
 
 # Using multiple inputs
