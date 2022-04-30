@@ -13,7 +13,7 @@ print(b)
 ```
 
 In order to fix this error, we can use the functions mentionned earlier which are : 
-  - **`string()`** : Converts value to a string (text)
+  - **`str()`** : Converts value to a string (text)
   - **`int()`** : Convert value to an integer (number)
   - **`float()`** : Converts value to a float (number with decimals)
   - **`bool()`** : Converts value to a Bolean (True or False)
