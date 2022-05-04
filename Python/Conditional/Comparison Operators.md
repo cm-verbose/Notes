@@ -1,8 +1,8 @@
 # Comparison Operators
-The comparison operators are operators that compare the value of two `numbers` (`float` and `int` types), returning a **boolean value** depending on the operators and the numbers. They can be useful for checking if for example, a user has a name that has more than two characters but has less than 50 characters. Here are some of the comparison operators that are present in Python : 
+The comparison operators are operators that compare the value of two `numbers` (`float` and `int` types), returning a **Boolean value** depending on the operators and the numbers. They can be useful for checking if for example, a user has a name that has more than two characters but has less than 50 characters. Here are some of the comparison operators that are present in Python: 
 
 - `>` : Greater than operator
-  This operator checks if the first number of the provided values is greater than the second. If it is not greater than the second, then this boolean expression will become false. **Note that if the numbers is equal, this expression will return `False`** For example : 
+  This operator checks if the first number of the provided values is greater than the second. If it is not greater than the second, then this Boolean expression will become false. **Note that if the numbers are equal, this expression will return `False`** For example: 
   ```py
     x = int(input('Enter an integer\n')) 
     if x > 5:
@@ -14,7 +14,7 @@ The comparison operators are operators that compare the value of two `numbers` (
   ```
  
  - `<` : Smaller than operator
-  This operators checkes if the first number of the provided values is smaller than the second. This works like the greater than operator. 
+  This operators checks if the first number of the provided values is smaller than the second. This works like the greater than operator. 
     ```py
     print(7 < 4) # False
     ```
@@ -28,7 +28,7 @@ The comparison operators are operators that compare the value of two `numbers` (
   ```
   
 - `<=` : Smaller than or equal to operator 
-  This operator checks, like the greater than or equal operator, the values of two numbers. It returns the boolean value `True` is the first number is smaller than or equal to the second. This also erases some of the issues with the operator. 
+  This operator checks, like the greater than or equal operator, the values of two numbers. It returns the Boolean value `True` is the first number is smaller than or equal to the second. This also erases some of the issues with the operator. 
   ```py
   print(2 <= 3) # True
   print(2 <= 2) # True
@@ -43,7 +43,7 @@ The comparison operators are operators that compare the value of two `numbers` (
     ```
   
 - `!=` : Not equal operator 
-  This operator can be thought as the inverse of the equal operator, checking if two numbers that are **not equal**. For example, these two staments below are equal : 
+  This operator can be thought as the inverse of the equal operator, checking if two numbers that are **not equal**. For example, these two statements below are equal: 
   ```py
   print(not 6 == 6) # False
   print(6 != 6) # False
