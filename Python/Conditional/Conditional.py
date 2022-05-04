@@ -35,20 +35,20 @@ elif number < 0.5:
 else: 
 	print(f"{number} is bigger than 0.5 and 0.25") # 0.6 is bigger than 0.5 and 0.25
 
-# Logial operator and 
+# Logical operator and 
 
 is_mean = True
 is_very_mean = True
 
 if is_mean and is_very_mean:
-  print("This person is mean >:D") # is_mean and is_very_mean are checked here, in this case both are true so this print will work
+  print("This person is mean >:D") # is_mean and is_very_mean are checked here, in this case both are true so this print statement will work
 is_mean = True
 is_very_mean = False
 
 if is_mean and is_very_mean:
   print("This person is mean >:D") # Here, the print statement will not work because is_very_mean is False
 
-# Logial operator or
+# Logical operator or
 
 is_mean = True
 is_very_mean = False
