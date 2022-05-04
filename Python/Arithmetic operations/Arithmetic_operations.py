@@ -2,7 +2,7 @@
 ans = 10 + 9 
 print(ans) # 19 
 
-# Substraction
+# Subtraction
 ans = 9 - 10
 print(ans) # -1 
 
@@ -35,7 +35,7 @@ ans = 5;
 ans += 14
 print(ans)  # 19
 
-# Augmented substraction operator
+# Augmented subtraction operator
 ans = 5; 
 ans -= 14
 print(ans)  # -9 
