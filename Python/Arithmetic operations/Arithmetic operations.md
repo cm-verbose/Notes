@@ -1,5 +1,5 @@
 # Arithmetic operations 
-Arithmetic operations are operations that have effect on numbers. Many of these operators, we already know, such as **addition**, **substraction**, **multiplication** * **division** and so on. In Python, there are these same operators that we can use on numbers. Here is a list of them. 
+Arithmetic operations are operations that have effect on numbers. Many of these operators, we already know, such as **addition**, **subtraction**, **multiplication** * **division** and so on. In Python, there are these same operators that we can use on numbers. Here is a list of them. 
 
 - ## Addition
   The addition operator `+` can be used to add 2 numbers. Be careful with it, because it can also concatenate two strings. 
@@ -7,20 +7,20 @@ Arithmetic operations are operations that have effect on numbers. Many of these 
   ans = 10 + 9 
   print(ans) # 19 
   ```
-- ## Substraction
-  The substraction operator `-` can be used to substract 2 numbers. 
+- ## Subtraction
+  The subtraction operator `-` can be used to subtract 2 numbers. 
   ```py
   ans = 9 - 10
   print(ans) # -1 
   ```
 - ## Multiplication
-  The mutliplication operator `*` can be used to multiply 2 numbers. 
+  The multiplication operator `*` can be used to multiply 2 numbers. 
   ```py
   ans = 9 * 10
   print(ans) # 90
   ```
 - ## Division 
-  The divion operator `/` divides two numbers. 
+  The division operator `/` divides two numbers. 
   ```py
   ans = 8/9
   print(ans) # 0.8888888888888888
@@ -52,18 +52,18 @@ Arithmetic operations are operations that have effect on numbers. Many of these 
   ```
 
 ## Augmented Assignment operators 
-Augmented Assignment operators help us write assingment of a variable while performing a an operation on the variable we want. Here are some of the operators that have augmented assignments to them : 
+Augmented Assignment operators help us write assignment of a variable while performing an operation on the variable we want. Here are some of the operators that have augmented assignments to them: 
 
 - ## Addition
-  The `+=` performs addition on two numbers and assigns them. In this case, `x += y` is equal to `x = x + y`, which is longer to write out then the augmented assignement. 
+  The `+=` performs addition on two numbers and assigns them. In this case, `x += y` is equal to `x = x + y`, which is longer to write out then the augmented assignment. 
   ```py
   ans = 5; 
   ans += 14
   print(ans)  # 19
   ```
 
-- ## Substraction
-  The `-=` performs substraction on two numbers where they are reassigned.
+- ## Subtraction
+  The `-=` performs subtraction on two numbers where they are reassigned.
   ```py
   ans = 5; 
   ans -= 14
@@ -71,7 +71,7 @@ Augmented Assignment operators help us write assingment of a variable while perf
   ```
 
 - ## Multiplication
-  The `*=` performs mutliplication on two numbers where they are reassigned.
+  The `*=` performs multiplication on two numbers where they are reassigned.
   ```py
   ans = 5
   ans *= 14
@@ -111,13 +111,13 @@ Augmented Assignment operators help us write assingment of a variable while perf
   ```
 
 ## Operator Precedence
-Operator Precendence allows for the arithmetic operations that we run to follow the exact same rule as in mathematics. So if you remember them correctly, in order operations follow this order : 
+Operator precedence allows for the arithmetic operations that we run to follow the exact same rule as in mathematics. So, if you remember them correctly, in order operations follow this order: 
   - Parenthesis
   - Exponentiation & Roots
   - Multiplication & Division
-  - Addition & Substraction
+  - Addition & Subtraction
   
-Here is an example of a mathematical expression that is correctly solved using operator precedence : 
+Here is an example of a mathematical expression that is correctly solved using operator precedence: 
 ```py
 expr = (5 - 3) * 234 ** 2 + 4 
 # 2 * 234 ** 2 + 4
@@ -128,6 +128,6 @@ print(expr) # 109516
 ```
 
 ## Math Module 
-The Python module is a module that we can import in order to compute mathematical expressions that are more complex. Here, a module is a file that contains valid python code and that can be used to simplify our code by writting less in the main file. [Here](https://docs.python.org/3/library/math.html), you can find a list of all functions contained within this module and it's usage.
+The Python module is a module that we can import to compute mathematical expressions that are more complex. Here, a module is a file that contains valid python code and that can be used to simplify our code by writing less in the main file. [Here](https://docs.python.org/3/library/math.html), you can find a list of all functions contained within this module and its usage.
 
   
